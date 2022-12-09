@@ -6,7 +6,7 @@ function Aboutauthor() {
         <div className="col-md-3 col-sm-3 col-xs-12">
           <div className="avtar">
             <img
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQHB_9UTOZXNxA/profile-displayphoto-shrink_100_100/0/1539813211021?e=1653523200&v=beta&t=IxbOXpJ5YylPjohXuggLmf3FauX2fscX5RDYdw4mQPo"
+              src=".\src\assets\1539813211021.png"
               style={{ borderRadius: "50%" }}
               alt="avtar"
             />
@@ -15,8 +15,7 @@ function Aboutauthor() {
 
         <div className="col-md-9 col-sm-9 col-xs-12">
           <h2>Chengcheng Ding</h2>
-          <p>Computer Science major ar Bucknell University, </p>
-          <p> Incoming Graduate Student at Carnegie Melon University</p>
+          <p> Master of InfoSec at Carnegie Melon University, </p>
         </div>
       </div>
 
@@ -240,7 +239,7 @@ function Aboutauthor() {
         My most updated resume:
       </h4>
       <Fragment>
-        <iframe title="Resume" src="https://drive.google.com/file/d/1zTH2wtFpAy4PazIs2mn4Vb2qIi_bFUII/preview" width="90%" height="960" align="center" allow="autoplay"></iframe>
+        <iframe title="Resume" src="https://drive.google.com/file/d/1jB_2bKQygXwOZ3lSj83A-LpdLPRZpzbX/preview" width="90%" height="960" align="center" allow="autoplay"></iframe>
       </Fragment>
 
     </div>
