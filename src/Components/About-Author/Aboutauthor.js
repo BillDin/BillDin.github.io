@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import avatar from "./1539813211021.png"
 function Aboutauthor() {
   return (
     <div className="container py-5">
@@ -6,8 +7,8 @@ function Aboutauthor() {
         <div className="col-md-3 col-sm-3 col-xs-12">
           <div className="avtar">
             <img
-              src=".\src\assets\1539813211021.png"
-              style={{ borderRadius: "50%" }}
+              src= {avatar}
+              style={{ borderRadius: "50%", width: 200 }}
               alt="avtar"
             />
           </div>
@@ -15,7 +16,7 @@ function Aboutauthor() {
 
         <div className="col-md-9 col-sm-9 col-xs-12">
           <h2>Chengcheng Ding</h2>
-          <p> Master of InfoSec at Carnegie Melon University, </p>
+          <p> Master of InfoSec at Carnegie Melon University </p>
         </div>
       </div>
 
